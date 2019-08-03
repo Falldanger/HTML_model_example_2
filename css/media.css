@@ -1,0 +1,139 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.menu{
+	margin-right: 0px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	nav{
+		height: 70px;
+		line-height: 50px;
+		background-color:#840707 /*rgba(114, 114, 114, 0.5)*/;
+	}
+	.page-header { text-align: center; } 
+	.logo{
+		padding-top: 5px;
+		/*margin-left: -5px;*/
+	}
+
+	.menu_btn{
+		margin-top: 17.5px;
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		background-color: #e84545;
+		color: #fff;
+	}
+	.menu_btn span{
+		top: -14px;
+		left: -2px;
+	}
+	#top_menu{
+		background-color: #840707;
+		padding: 0px 0px;
+	}
+	.menu li{
+		display: block;
+	}
+	.menu li a{
+		display: block;
+		font-size: 15px;
+	}
+	.menu li a:hover{
+		background-color:#e1e1e1 /*rgba(22, 22, 22, 0.5)*/;
+		color: #840707;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+nav{
+		height: 70px;
+		line-height: 50px;
+		background-color: #840707;
+	}
+	
+	.logo{
+		padding-top: 5px;
+		/*margin-left: -5px;*/
+	}
+	.caption-box { word-break: break-all; }
+    ul.thumbnails li { margin-bottom: 30px; }
+
+	.menu_btn{
+		margin-top: 17.5px;
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		background-color: #e84545;
+		color: #fff;
+	}
+	.menu_btn span{
+		top: -14px;
+		left: -2px;
+	}
+	#top_menu{
+		background-color: #840707;
+		padding: 0px 0px;
+	}
+	.menu li{
+		display: block;
+	}
+	.menu li a{
+		display: block;
+		font-size: 15px;
+	}
+	.menu li a:hover{
+		background-color:#e1e1e1 /*rgba(22, 22, 22, 0.5)*/;
+		color: #840707;
+	}
+	}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+nav{
+		height: 70px;
+		line-height: 50px;
+		background-color: #840707;
+	}
+	
+	.logo{
+		padding-top: 5px;
+		/*margin-left: -5px;*/
+	}
+
+	.menu_btn{
+		margin-top: 17.5px;
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		background-color: #e84545;
+		color: #fff;
+	}
+	.menu_btn span{
+		top: -14px;
+		left: -2px;
+	}
+	#top_menu{
+		background-color: #840707;
+		padding: 0px 0px;
+	}
+	.menu li{
+		display: block;
+	}
+	.menu li a{
+		display: block;
+		font-size: 15px;
+	}
+	.menu li a:hover{
+		background-color:#e1e1e1 /*rgba(22, 22, 22, 0.5)*/;
+		color: #840707;
+	}
+	
+}
